@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 
-const DEFAULT_API = "http://localhost:8000/vsr";
+const DEFAULT_API = "https://Nikachu86-icu-vsr-backend.hf.space/vsr";
 const CLIP_SECONDS = 3;
 
 function Button({ children, disabled, onClick, className = "" }) {
